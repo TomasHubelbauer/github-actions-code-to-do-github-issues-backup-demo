@@ -14,7 +14,6 @@ boxes in MarkDown, line this:
 
 - [ ] Do something
 - [ ] Do something else
-- [ ] Do something different still
 
 The workflow demonstrating this action can be seen through the badge link at the
 top of this readme. It should print the checkboxes as seen here. For now, the
