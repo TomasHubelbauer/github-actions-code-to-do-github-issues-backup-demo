@@ -8,4 +8,4 @@ jobs:
     - name: Check out the main branch
       uses: actions/checkout@v3
     - name: Sync to-do comments to GitHub Issues
-      uses: tomashubelbauer/github-actions-code-to-do-github-issues-backup
+      uses: tomashubelbauer/github-actions-code-to-do-github-issues-backup@v1
