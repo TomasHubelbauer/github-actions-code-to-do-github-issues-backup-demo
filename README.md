@@ -13,7 +13,6 @@ It recognizes to-do comments in source code files. It can also recognize check
 boxes in MarkDown, line this:
 
 - [ ] Do something
-- [ ] Do something else
 
 The workflow demonstrating this action can be seen through the badge link at the
 top of this readme. It should print the checkboxes as seen here. For now, the
