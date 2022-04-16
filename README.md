@@ -4,10 +4,11 @@
 [yml]: https://github.com/TomasHubelbauer/github-actions-code-to-do-github-issues-backup-demo/actions/workflows/main.yml
 [![main][svg]][yml]
 
-This repository demonstrates the use of the
-`tomashubelbauer/github-actions-code-to-do-github-issues-backup` GitHub Action.
+[github-actions-code-to-do-github-issues-backup]: https://github.com/TomasHubelbauer/github-actions-code-to-do-github-issues-backup
+This repository showcases the [github-actions-code-to-do-github-issues-backup]
+GitHub Action.
 
-This action is based on the https://github.com/TomasHubelbauer/todo tool.
+The action is based on [todo](https://github.com/TomasHubelbauer/todo).
 
 It recognizes to-do comments in source code files. It can also recognize check
 boxes in MarkDown, line this:
