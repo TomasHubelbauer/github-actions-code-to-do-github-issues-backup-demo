@@ -1,12 +1,11 @@
-# `github-actions-code-to-do-github-issues-backup` GitHub Action Demo
+# `todo-comments-github-issues` GitHub Action Demo
 
 [svg]: https://github.com/TomasHubelbauer/github-actions-code-to-do-github-issues-backup-demo/actions/workflows/main.yml/badge.svg
 [yml]: https://github.com/TomasHubelbauer/github-actions-code-to-do-github-issues-backup-demo/actions/workflows/main.yml
 [![main][svg]][yml]
 
-[github-actions-code-to-do-github-issues-backup]: https://github.com/TomasHubelbauer/github-actions-code-to-do-github-issues-backup
-This repository showcases the [github-actions-code-to-do-github-issues-backup]
-GitHub Action.
+[todo-comments-github-issues]: https://github.com/TomasHubelbauer/todo-comments-github-issues
+This repository showcases the [todo-comments-github-issues] GitHub Action.
 
 The action is based on [todo](https://github.com/TomasHubelbauer/todo).
 
@@ -14,6 +13,7 @@ It recognizes to-do comments and MarkDown check boxes, like this:
 
 - [ ] Do something
 
-The workflow demonstrating this action can be seen through the badge link at the
-top of this readme. It should print the checkboxes as seen here. For now, the
-action is not syncing them to GitHub Issues yet, as it is still in development.
+[workflow]: https://github.com/TomasHubelbauer/todo-comments-github-issues-demo/actions/workflows/main.yml
+[issues]: https://github.com/TomasHubelbauer/todo-comments-github-issues-demo/issues
+The [workflow] runs the action which searches the code base of this repository
+for `TODO` comments and syncs them to [issues].
