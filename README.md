@@ -11,6 +11,7 @@ The action is based on [todo](https://github.com/TomasHubelbauer/todo).
 
 It recognizes to-do comments and MarkDown check boxes, like this:
 
+
 - [ ] Do something
 
 [workflow]: https://github.com/TomasHubelbauer/todo-comments-github-issues-demo/actions/workflows/main.yml
