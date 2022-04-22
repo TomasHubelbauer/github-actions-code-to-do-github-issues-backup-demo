@@ -9,11 +9,11 @@ This repository showcases the [todo-comments-github-issues] GitHub Action.
 
 The action is based on [`todo`](https://github.com/TomasHubelbauer/todo).
 
-It recognizes `TODO` comments and MarkDown checkboxes, like this:
-
-- [ ] Do something
-
 [workflow]: https://github.com/tomashubelbauer/todo-comments-github-issues-demo/actions/workflows/main.yml
 [issues]: https://github.com/tomashubelbauer/todo-comments-github-issues-demo/issues
 The [workflow] runs the action which searches the code base of this repository
 for `TODO` comments and syncs them to [issues].
+
+It recognizes `TODO` comments and MarkDown checkboxes, like this:
+
+- [ ] Do something
